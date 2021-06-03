@@ -10,21 +10,23 @@ public class Aluno {
     public void alteraNome(String novoNome){
         nome = novoNome;
     }
-    public void imprimeNome (String nome){
+    public void imprimeNome (){
         System.out.println(nome);
     }
     public void alteraId(int novoId){
         id = novoId;
     }
-    public void imprimeId(int Id){
-        System.out.println(Id);
+    public void imprimeId(){
+        System.out.println(id);
     }
+
     protected void calculaMedia (double nota1, double nota2){
         media = (nota1 + nota2)/2;
     }
     public void retornaMedia (){
         System.out.println("A média é " + media);
     }
+
     public void passou (){
         if(media >= 7){
 
@@ -33,5 +35,14 @@ public class Aluno {
             System.out.println("O aluno foi reprovado.");
         }
     }
+    /* public Aluno (String newNome, int Id, double newNota1, double newNota2){
+    nome = newNome;
+    id = Id;
+    nota1 = newNota1;
+    nota2 = newNota2;
+    */
+
+
+
 
 }
