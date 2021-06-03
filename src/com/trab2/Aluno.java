@@ -35,12 +35,7 @@ public class Aluno {
             System.out.println("O aluno foi reprovado.");
         }
     }
-    /* public Aluno (String newNome, int Id, double newNota1, double newNota2){
-    nome = newNome;
-    id = Id;
-    nota1 = newNota1;
-    nota2 = newNota2;
-    */
+
 
 
 
